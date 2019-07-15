@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: rgb(54, 196, 54);
+    font-family: Courier10 BT;
+    padding: 2px;
+    padding-right: 2%;
+}
+
+.head>h1 {
+    margin-bottom: 0;
+}
+
+.allbody a {
+    color: white;
+}
+
+.allbody p {
+    margin: 0;
+}
+
+.sheetlist {
+    width: 30%;
+    float: left;
+}
+
+.sheetlist ul {
+    width: 100%;
+}
+
+.sheetlist ul li {
+    width: 100%;
+    padding: 1%;
+}
+
+.sheetlist ul li a {
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+.sheetlist ul li a:hover {
+    /*background-color: white;*/
+    font-weight: bold;
+}
+
+.midcont {
+    clear: left;
+    width: 100%;
+    height: 100%;
+}
+
+.tblcont {
+    width: 100%;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px bold lightgray;
+    text-align: left;
+    font-family: Arial;
+    vertical-align: middle;
+    /*셀 내 글자 4방향 중앙정렬*/
+}
+
+.table th {
+    color: white;
+    background-color: rgb(71, 192, 71);
+    padding: 1%;
+}
+
+.table td {
+    padding: 1%;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(233, 232, 232);
+}
+
+.sidebar {
+    width: 30%;
+    display: inline-block;
+    position: absolute;
+    top: 15%;
+    right: 1%;
+}
+
+.sidecont {
+    width: 100%;
+    height: 100%;
+    border: 0.5px solid grey;
+    border-radius: 5px;
+    padding: 2%;
+    color: white;
+}
+
+.sidecont>p {
+    padding-bottom: 10px;
+    font-size: small;
+}
+
+.footer {
+    width: 100%;
+    font-size: small;
+    padding: 1%;
+    text-align: center;
+}
+
+
+/*clear:both; float초기화시 사용*/

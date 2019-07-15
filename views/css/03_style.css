@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family:Arial;
+    width: 100%;
+    height: 100%;
+    margin:10px;
+    padding:2%;
+    border: 0.5px solid grey;
+ 
+}
+
+.allbody h1, h2, h3{
+    font-family: Arial black;
+    margin:0;
+    font-weight:bold;
+    color:rgb(39, 167, 39);
+}
+
+.head a{
+    color:black;
+}
+
+
+.bodypart{
+    width:100%;
+    height:100%;
+}
+
+.sheetlist{
+    overflow: hidden;
+}
+
+.sheetlist ul{
+    list-style:none;
+    padding :0;
+    width:100%;
+    text-align: left;
+}
+
+.sheetlist ul li{
+    background-color: gray;
+    column-span: all;
+    display:inline;
+    padding : 5px 50px;
+
+}
+
+.sheetlist ul li a{
+    color:black;
+    text-decoration-line: none;
+}
+
+.sheetlist ul li:hover{
+    background-color:rgb(39, 167, 39);
+    font-weight:bolder;
+}
+
+.midcont>p>a{
+    color:black;
+}
+
+.tblcont{
+    width:100%;
+    /*clear:both; float초기화시 사용*/
+}
+
+.table{
+    width:100%;
+    margin-top:10px;
+    border-collapse: collapse;
+    border : 1px solid lightgray;
+
+}
+.table th{
+    background-color: rgb(39, 167, 39);
+    color:white;
+    text-align: left;
+    padding : 0.5%;
+ 
+}
+.table td{
+    text-align: left;
+    padding :  0.5%;
+    vertical-align: middle;
+}
+
+tr:nth-child(even){
+    background-color: rgb(233, 232, 232);
+}
+
+
+.bottombody{
+    width:100%;
+    height:100%;
+}
+
+.bottomcont{
+    margin-top:10px;
+}
+
+.footer p{
+    width:100%;
+    height:100%;
+    font-size:small;
+    /*text-align: center;*/
+    padding:1%;
+    background-color: rgb(233, 232, 232);
+    
+
+}

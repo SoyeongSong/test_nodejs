@@ -1,0 +1,132 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
+html body{
+    height:100%;
+    background-color: crimson;
+}
+a{
+    text-decoration: none;
+    color: crimson;
+}
+.head{
+    width: 100%;
+    color:white;
+    font-size:large;
+}
+
+.head>p{
+    font-size: medium;
+    color:white;
+}
+
+.head>h1{
+    margin:0;
+}
+
+/*글씨가 안보여서 임의지정*/
+.head>h1>a{
+    color:pink;
+    text-decoration-line: underline;
+}
+
+.firstbody{
+    
+    height:100%;
+    width:100%;
+    background-color: whitesmoke;
+    padding : 10px;
+    position:flex;
+    /* display:inline;
+    position:flex; */
+}
+    
+
+.leftcont{
+    width:80%;
+    float: left;
+}
+
+.leftcont>h1{
+    color: crimson;
+}
+
+
+.rightcont{
+    width: 20%;
+    float:right;
+
+}
+
+.rightcont ul{
+    width:100%;
+    list-style: none;
+    
+}
+.rightcont ul li{
+    width:100%;
+    border-radius: 25px;
+    border:1px solid crimson;
+    background-color: crimson;
+    text-align: center;
+    padding:8px;
+    margin-bottom:8px;
+
+
+}
+.rightcont ul li:hover{
+    background-color : whitesmoke;
+    font-weight: bold;
+}
+
+
+.tblcont{
+   width:100%;
+   clear:both;
+}
+.tblcont>h2{
+    color:crimson;
+}
+
+table{
+    border-collapse: collapse;
+    width:100%;
+    border: 1px solid gray;
+}
+
+th{
+    background-color:rgb(206, 61, 92);
+    color:white;
+}
+
+th, td
+{
+    text-align:left;
+    padding : 0.5%;
+    vertical-align:middle;
+}
+
+tr:nth-child(even){
+    background-color: rgb(207, 188, 188);
+}
+
+.secondbody{
+
+    height:100%;
+    width:100%;
+    padding:10px;
+    background-color:rgb(236, 190, 200);
+}
+
+.bottomcont H3, p{
+    color:crimson;
+}
+
+.footer p{
+    font-size: x-small;
+    color:white;
+    text-align: center;
+}
